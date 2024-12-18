@@ -1,0 +1,119 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Body Styling */
+body {
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* ID Card Container */
+.id-card {
+    width: 350px;
+    border: 2px solid #333;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+}
+
+/* Header Section */
+.header {
+    background-color: #082567;
+    color: white;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header .logo {
+    width: 50px;
+    height: 50px;
+}
+
+.header h1 {
+    font-size: 16px;
+}
+
+.header h2 {
+    font-size: 12px;
+    font-weight: lighter;
+}
+
+/* Identity Section */
+.identity {
+    background-color: #d92d2d;
+    color: white;
+    padding: 5px;
+}
+
+.identity h3 {
+    font-size: 18px;
+}
+
+/* Profile Section */
+.profile {
+    margin: 15px 0;
+}
+
+.profile .profile-img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 2px solid #333;
+}
+
+/* Details Section */
+.details {
+    margin: 10px;
+    color: #333;
+}
+
+.details h2 {
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.details p {
+    margin: 5px 0;
+    font-size: 14px;
+}
+
+/* Footer Section */
+.footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 5px;
+}
+
+.footer .seal img {
+    width: 60px;
+    height: 60px;
+    opacity: 0.8;
+}
+
+.footer .signature {
+    text-align: center;
+    font-size: 12px;
+}
+
+/* Bottom Color Strip */
+.color-strip {
+    height: 8px;
+    background: linear-gradient(to right, #ffcc00, #ff0000, #0033cc);
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
